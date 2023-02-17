@@ -3,7 +3,7 @@
 // boolean значение).
 
 public class Task03 {
-    private static String format;
+    
     public static void main(String[] args) {
         String string1 = "шАлаш";
         String string2 = "шоколад";
@@ -11,10 +11,7 @@ public class Task03 {
         System.out.println(testPolidrom(string2));
 
     }
-    /**
-     * @param text
-     * @return
-     */
+
     public static boolean testPolidrom(String text) {
         StringBuilder myString = new StringBuilder();
         myString.append(text.toLowerCase()).reverse();
